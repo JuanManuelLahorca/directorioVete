@@ -1,0 +1,918 @@
+@media screen and (min-width: 660px){
+
+
+header, section, footer {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Open Sans', sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+ body {
+    background-image: url(../imagenes/otro.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     align-items: center;
+ }
+
+.registro {
+    height: 1000px;
+}
+
+form {
+    margin: 0 auto; /*centrar el form*/
+    width: 450px;
+    height: 700px;
+    padding: 5px; /*separa los elementos dentro del formulario*/
+    border-radius: 10px;
+}
+
+input {
+    padding: 5px;
+}
+
+.input_file{
+    padding: 5px 5px 35px 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+label, button {
+    display: block; /*los input quedan debajo de los label*/
+    padding: 5px;
+}
+
+.btn_enviar {
+    margin-top: 20px;
+}
+
+button{
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #b3b3cc;
+    font-family:'Open Sans', sans-serif;
+    font-size: medium;  
+}
+ button:hover {
+    background-color: white ;
+}
+
+.titleReg{
+    margin-top: 20px;
+}
+
+.caja_reg {
+    width: 693px;
+    height: 1000px;
+    float: right;
+    box-sizing: border-box;
+    background-color: rgba(239, 239, 245, 0.5);
+}
+
+.caja_izq {
+    width: 267px;
+    height: 1000px;
+    float: left;
+    background-image: url(../imagenes/caja.jpg);
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.logo {
+    margin: 5% 0% 2% 0%;
+    border-radius: 20%;
+    width: 40%;
+}
+
+.cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navbar{
+    background-image: url(../imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-position:center ;
+    height: 138px;
+    width: auto;
+    background-color: rgb(102, 44, 144);
+}
+
+.ulnav .nav-item .nav-link {
+    text-decoration: none;
+}   
+
+.nav-link{
+    padding-right: 50px;
+}
+
+.ul-collapse{
+       display: none; 
+}
+
+.ulnav { 
+    background-color: rgb(102, 44, 144);
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 2px;
+} 
+
+.navbarNav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-item {
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+.nav-link {
+    color: #d9ff66;
+}
+
+.nav-link:hover {
+      color:#d9d9d9;
+}
+
+header, section, footer {
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Roboto', sans-serif;
+    width: 960px;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centrado {
+    float: left;
+    background-color: #d9d9d9;
+    width: 480px;
+    height: 462px;
+}
+
+.container-login {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 40px; 
+}
+
+.form_busc, .container-form-login {
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: url(../imagenes/img_buscador1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container-form-login {
+    border: black solid 1px;
+}
+
+input {
+    padding: 5px;
+}
+
+.input_busc, .input-login {
+    margin-top: 3px;
+    margin-bottom: 18px;
+    color: black;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    border: black solid 1px;
+}
+
+
+.btn_busc {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    width: 40%;
+    border-radius: 10px;
+    background:#d9d9d9 ;
+    border: transparent;
+    font-size: medium;
+    padding: 10px;
+}
+
+.btn_busc:hover {
+    background-color: black;
+    color:#d9d9d9 ;
+}
+.boton {
+    float: right;
+    width: 480px;
+    height: 462px;
+    box-sizing: border-box;
+    text-align: justify;
+    background-color: #d9d9d9;
+    padding: 30px;
+}
+.btn_registro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: transparent;
+    border-radius: 10px;
+    font-size: medium;
+    font-family:'Roboto', sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    width: 40%;
+    background-color:#bb99ff;
+}
+
+.btn_registro a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.btn_registro:hover {
+    background-color: #d9ff66;
+
+}
+
+.mapa {
+    margin: 30px;
+    text-align: center;   
+}
+
+.mapa h1{
+    margin-bottom: 25px;
+}
+
+.list-vets{
+    margin: 30px;
+}
+
+.text_bases{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 26%;
+    text-align: center;
+    padding: 30px;
+    border: solid 1px black;
+    background-color: rgba(255, 255, 255, 0.4)
+}
+
+
+.sectionadmin, .list-group{
+    margin: 10px 30px 10px 30px;
+    color: rgb(226, 205, 205);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    margin: 10px 30px 10px 30px;
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.sectionadmin{
+    background-color: white;
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10%;
+    margin-left: 10%;
+}
+
+section a {
+    color: brown;
+    margin: 20px;
+}
+
+.list-group{
+    margin: 8% 30% 5% 30%;
+}
+
+.container-carrusel{
+    margin: 5%;
+    justify-content: center;
+}
+
+.img-admin{
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+
+th {
+    color: brown;
+}
+
+footer{
+    width: 100%;
+    z-index: auto;
+    margin-top: 30px;
+    justify-items: center;
+}
+
+.carousel-inner img {
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
+.primer-footer {
+    background-color: rgb(122, 67, 161);
+    padding: 1% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.segundo-footer{
+    background-color: rgb(102, 44, 144);
+    padding: 1% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+.tercer-footer{
+    color: #ecfac2;
+    background-color: rgb(51, 14, 78);
+    padding: 1% 0%;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #d9d9d9;
+    margin-left: 66px;
+    margin-right: 66px;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+#secciones{
+    display: flex;
+}
+
+.conteiner-list-dataVet {
+    width: 25%;
+    padding-left: 500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.list-dataVet {
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-left: 40px;
+    border-radius: 2%;
+    border: black solid 2px;
+}
+
+.table-deleteVet{
+    border: solid black 2px;
+    width: 66%;
+    background-color: rgba(255, 255, 255, 0.3);   
+}
+
+.conteiner-tableDelete {
+    display: flex;
+    justify-content: center;
+}
+
+.table-deleteVet th {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-bottom: solid saddlebrown 1px;
+}
+
+.table-deleteVet td {
+    border-bottom: solid black 1px;
+    border-left: solid black 1px;
+    padding: 5px;
+}
+
+.list-Vets {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 5px 10px 45px;
+    border-bottom: solid saddlebrown 1px;
+}
+
+.primera {
+    height: 462px;
+}
+
+.btn-menu{
+    display: none;
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 660px){
+
+    body{
+        background-image: url(../imagenes/otro.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        align-items: center;
+    }
+
+    .btn-menu{
+        background-color: rgb(102, 44, 144);
+        padding: 5px;
+        width: 50px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+    }
+
+    .ul-collapse{
+        display: block; 
+        margin: 10px 20px 20px 0px;
+    }
+
+
+    .primera {
+        display: flex;
+        flex-direction: column;
+        height: 832px;
+        width: 465px;
+    }
+
+    .mapa {
+        width: 200px;
+        height: auto;
+    }
+
+    footer {
+        width: 460px;
+        z-index: auto;
+        margin-top: 55px;
+        justify-items: center;  
+    }
+
+    .form h1 {
+        text-align: center;
+        font-size: 25px;
+        width: auto;
+    }
+
+    .mapa h1{
+        text-align: center;
+        font-size:25px;
+        width: 412px;
+    }
+
+    .mapa iframe {
+        width: 200%;
+    }
+
+    .mapa h2 {
+        text-align: center;
+        font-size: 15px;
+        width: 352px;
+    }
+
+    .registro {
+        height: 950px;
+    }
+
+    form {
+        margin: 0 auto; /*centrar el form*/
+        width: 450px;
+        height: 700px;
+        padding: 5px; /*separa los elementos dentro del formulario*/
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 15px;
+    }
+    
+    input {
+        padding: 5px;
+    }
+    
+    .input_file{
+        padding: 5px 5px 35px 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: black;
+        border: 2px solid transparent;
+        border-radius: 5px;
+    }
+    
+    label, button {
+        display: block; /*los input quedan debajo de los label*/
+        padding: 5px;
+    }
+    
+    .btn_enviar {
+        margin-top: 20px;
+    }
+    
+    button{
+        width: 150px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #b3b3cc;
+        font-family:'Open Sans', sans-serif;
+        font-size: medium;  
+    }
+     button:hover {
+        background-color: white ;
+     }
+    
+    .caja_reg {
+        width: 460px;
+        height: 993px;
+        box-sizing: border-box;
+        background-color: rgba(239, 239, 245, 0.5);
+        border-bottom: 5px;
+    }
+    
+    .caja_izq {
+        display: none;
+        width: 267px;
+        height: 993px;
+        background-image: url(../imagenes/caja.jpg);
+        background-size: cover;
+    }
+
+    .caja_reg h1 {
+        padding-top: 20px;
+    }
+    
+    .logo {
+        margin: 5% 0% 2% 0%;
+        border-radius: 20%;
+        width: 40%;
+    }
+    
+    .cabecera{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+    .navbar{
+        background-image: url(../imagenes/banner.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 138px;
+        width: 484px;
+        background-color: rgb(102, 44, 144);
+        display: flex;
+        justify-content: end;
+        margin-bottom: 5px;
+        padding-right: 50px;
+        padding-left: 30px;
+    }
+    
+    ul .nav-item .nav-link {
+        text-decoration: none;
+    }    
+    
+    ul {
+        list-style-type: none;
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+    
+    } 
+
+    .navbarNav{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    
+    .nav-item {
+        padding-left: 20px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        margin-bottom: 2px;
+    }
+    
+    .nav-link {
+        color: #d9ff66;
+        background-color: rgb(102, 44, 144); 
+    }
+    
+    .nav-link:hover {
+          color:#d9d9d9;
+    }
+    
+    header, section, footer {
+        margin-right: auto;
+        margin-left: auto;
+        font-family: 'Roboto', sans-serif;
+        width: 460px;
+    }
+    
+    
+    h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .centrado {
+        background-color: #d9d9d9;
+        width: 480px;
+        height: 462px;
+    }
+    
+    .container-login {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        margin-top: 40px; 
+    }
+    
+    .form_busc, .container-form-login {
+        margin: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 400px;
+        height: 400px;
+        padding: 5px;
+        border-radius: 10px;
+        background-image: url(../imagenes/img_buscador1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .container-form-login {
+        border: black solid 1px;
+    }
+    
+    .input_busc, .input-login {
+        margin-top: 3px;
+        margin-bottom: 18px;
+        color: black;
+        border: 2px solid transparent;
+        border-radius: 5px;
+        border: black solid 1px;
+    }
+    
+    
+    .btn_busc {
+        margin-top: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bolder;
+        width: 40%;
+        border-radius: 10px;
+        background:#d9d9d9 ;
+        border: transparent;
+        font-size: medium;
+        padding: 10px;
+    }
+    
+    .btn_busc:hover {
+        background-color: black;
+        color:#d9d9d9 ;
+    }
+    .boton {
+        float: right;
+        width: 480px;
+        height: 462px;
+        box-sizing: border-box;
+        text-align: justify;
+        background-color: #d9d9d9;
+        padding: 30px;
+    }
+    .btn_registro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: transparent;
+        border-radius: 10px;
+        font-size: medium;
+        font-family:'Roboto', sans-serif;
+        font-weight: bolder;
+        padding: 10px;
+        width: 40%;
+        background-color:#bb99ff;
+    }
+    
+    .btn_registro a {
+        font-family: 'Roboto', sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .btn_registro:hover {
+        background-color: #d9ff66;
+    
+    }
+    
+    .mapa {
+        margin: 30px;
+        text-align: center;   
+    }
+    
+    .mapa h1{
+        margin-bottom: 25px;
+    }
+    
+    .text_bases{
+        width: 486px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+        border: solid 1px black;
+        background-color: rgba(255, 255, 255, 0.4)
+    }
+    
+    .sectionadmin, .list-group{
+        margin: 10px 30px 10px 30px;
+        color: rgb(226, 205, 205);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    
+    h2 {
+        margin: 10px 30px 10px 30px;
+        color: rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    
+    .sectionadmin{
+        background-color: white;
+        width: 18%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10%;
+        margin-left: 10%;
+    }
+    
+    section a {
+        color: brown;
+        margin: 20px;
+    }
+    
+    .list-group{
+        margin: 8% 30% 5% 30%;
+    }
+    
+    .container-carrusel{
+        margin: 5%;
+        justify-content: center;
+    }
+    
+    .img-admin{
+        border-top-left-radius: 10%;
+        border-top-right-radius: 10%;
+    }
+    
+    th {
+        color: brown;
+    }
+
+    .carousel-inner img {
+        max-width: 400px;
+        max-height: 400px;
+        
+    }
+    
+    .primer-footer {
+        background-color: rgb(122, 67, 161);
+        padding: 1px 0%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .segundo-footer{
+        background-color: rgb(102, 44, 144);
+        
+        padding: 1% 0%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .tercer-footer{
+        color: #ecfac2;
+        background-color: rgb(51, 14, 78);
+        padding: 1% 0%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #d9d9d9;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    
+    .container{
+        margin-top: 10%;
+    }
+    
+    #secciones{
+        display: flex;
+    }
+    
+    .conteiner-list-dataVet {
+        width: 25%;
+        padding-left: 500px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .list-dataVet {
+        padding-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 50px;
+        background-color: rgba(255, 255, 255, 0.3);
+        border-left: 40px;
+        border-radius: 2%;
+        border: black solid 2px;
+    }
+    
+    .table-deleteVet{
+        border: solid black 2px;
+        width: 66%;
+        background-color: rgba(255, 255, 255, 0.3);   
+    }
+    
+    .conteiner-tableDelete {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .table-deleteVet th {
+        background-color: rgba(255, 255, 255, 0.5);
+        border-bottom: solid saddlebrown 1px;
+    }
+    
+    .table-deleteVet td {
+        border-bottom: solid black 1px;
+        border-left: solid black 1px;
+        padding: 5px;
+    }
+    
+    .list-Vets {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 10px 5px 10px 45px;
+        border-bottom: solid saddlebrown 1px;
+    }
+
+    .list-vets{
+        margin: 30px;
+    }
+}
