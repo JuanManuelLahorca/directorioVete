@@ -1,19 +1,18 @@
 <?php
 
 require_once "./Model/Model.php";
-require_once "./View/APIView.php";
-//require_once "./View/AuthHelper.php";
+require_once "./View/APIview.php";
+
 
 class ApiController {
 
     private $model;
     private $view;
-    private $AuthHelper;
+
 
     function __construct(){
         $this->model = new Model();
         $this->view = new APIView();
-        $this->AuthHelper = new AuthHelper();
     }
 
     function getVets(){

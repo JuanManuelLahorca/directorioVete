@@ -1,6 +1,5 @@
 <?php    
     require_once "./Controller/Controller.php";
-    require_once "./Controller/LoginController.php";
 
 
     define('BASE_URL', '//'.$_SERVER['SERVER_NAME'] . ':' . $_SERVER['SERVER_PORT'] . dirname($_SERVER['PHP_SELF']).'/');
@@ -14,7 +13,6 @@
     $params = explode('/', $action);
 
     $Controller = new Controller();
-    $LoginController = new LoginController();
 
 
     // determina que camino seguir según la acción
@@ -66,11 +64,33 @@
             $Controller->updateVet(); //modifico veterinario en db
             break;
 
+        case 'UpdateVetByAdmin': 
+            $Controller->updateVetByAdmin(); //modifico veterinario en db desde admin
+            break;
+
+        case 'goUpdateVetByAdmin': 
+            $Controller->goUpdateVetByAdmin($params[1]); //form modifico veterinario en db desde admin
+            break;  
+
         case 'deleteVet': 
             $Controller->deleteVet($params[1]); //borro un veterinario -- 
             break;
 
-       
+        case 'RecuperarPass': 
+            $Controller->recuperarPass(); //recupero de contraseña -- 
+            break;
+
+        case 'GenerarPass': 
+            $Controller->generarPass($params[1]); //borro un veterinario -- 
+            break;
+
+        case 'PublicOnVet': 
+            $Controller->publicOnVet($params[1]); //publicar un veterinario -- 
+            break;
+
+        case 'PublicOffVet': 
+            $Controller->publicOffVet($params[1]); //dar de baja un veterinario -- 
+            break;
 
     default: 
             echo('404 Page not found'); 

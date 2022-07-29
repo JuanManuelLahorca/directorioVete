@@ -38,7 +38,7 @@ class View{
     function showDataVet($user, $vets){
         $this->smarty->assign('vets' , $vets);
         $this->smarty->assign('user' , $user);
-        $this->smarty->display('templates/DataVet.tpl');
+        $this->smarty->display('templates/dataVet.tpl');
     }
 
 
@@ -55,10 +55,17 @@ class View{
         $this->smarty->assign('id', $id);
         $this->smarty->assign('vet', $vet);
         $this->smarty->display('templates/updateVet.tpl');
-
     }
 
-
+    function showGoUpdateVetByAdmin($id, $vet){
+        $this->smarty->assign('titulo', 'Modificar datos');
+        $this->smarty->assign('id', $id);
+        $this->smarty->assign('vet', $vet);
+        $this->smarty->display('templates/updateVetByAdmin.tpl');
+    }
     
-
+    function recuperarPass(){
+        $this->smarty->assign('titulo', 'Recuperar Password');
+        $this->smarty->display('templates/recuperarPass.tpl');
+    }
 }

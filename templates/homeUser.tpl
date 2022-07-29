@@ -13,11 +13,13 @@
                 <label for="contraseña">Contraseña</label>
                 <input type="password" name="password" id="password" placeholder="Password" class="input-login"  required>
                 <button type="submit" value="Login" class="btn_busc">Ingresar</button>
+                <a class="olvido_contraseña" href="RecuperarPass">¿Olvidates tu contraseña?</a>
         </form>
     </div>
 </div>
-<h4>{$error} </h4>
-
+<div class="conteiner-msj-error">
+    <h4 class="error-msj">{$error}</h4>
+</div>
 
 
 
